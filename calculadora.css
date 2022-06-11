@@ -1,3 +1,8 @@
+.body{
+    display: grid;
+    justify-content: baseline;
+}
+
 .general {
  display: grid;
  grid-template-columns:100px 100px 100px 100px 100px ;
@@ -5,6 +10,7 @@
  border: 10px solid;
  justify-content: center;
  position: relative;
+ box-shadow: 10px black;
 
 }
 
@@ -14,8 +20,10 @@ border: 2px solid black;
 border-radius: 8px;
 padding: 5px;
 margin: 5px;
-border: 6px outset;
+border: 5px outset darkslategray;
 background-color: cadetblue;
+box-shadow: 5px 4px black;
+
 
 }
 
