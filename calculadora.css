@@ -23,6 +23,7 @@ margin: 5px;
 border: 5px outset darkslategray;
 background-color: cadetblue;
 box-shadow: 5px 4px black;
+font-size: 25px;
 
 
 }
@@ -43,6 +44,7 @@ box-shadow: 5px 4px black;
     background-color: darkgray;
      border-radius: 50px;
      text-align: center;
+     font-size: 18px;
      
 
    
@@ -57,13 +59,14 @@ box-shadow: 5px 4px black;
     border-radius: 20px 20px 50px 50px;
     text-align: center;
     color: azure;
+    font-size: 18px;
 }
 
 #alpha {
     background-color: darkgray;
      border-radius: 50px;
      text-align: center;
-
+font-size: 18px;
 
 }
 
@@ -71,12 +74,14 @@ box-shadow: 5px 4px black;
     background-color: darkgray;
      border-radius: 50px;
      text-align: center;
+     font-size: 18px;
 }
 
 #on {
     background-color: darkgray;
      border-radius: 50px;
      text-align: center;
+     font-size: 18px;
 }
 
 #ac {
