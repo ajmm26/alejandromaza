@@ -18,15 +18,7 @@
  
  }
 
- .botones button {
 
-   background-color: lightblue;
-   border: none;
-    background: none;
-    font-size: 15px;
-    justify-content: center;
-    align-content: center;
- }
 
 .botones {
 
@@ -39,6 +31,7 @@ background-color: lightblue;
 box-shadow: 5px 4px black;
 text-align: center;
 justify-content: center;
+font-size: 18px;
 
 }
 
@@ -120,8 +113,8 @@ font-size: 18px;
 }
 
 
-#punto p {
-    font-size: 20px;
+#punto  {
+    font-size: 30px;
   
 }
 
