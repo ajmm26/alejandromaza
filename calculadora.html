@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CAlCULADORA</title>
+	<title>CALCULADORA</title>
     <link rel="stylesheet" type="text/css" href="calculadora.css">
    <link rel="stylesheet" href="">
-   <link rel="stylesheet" type="text/css" href="normalice.css">
+   
 </head>
 <body>
     <div class="general">
         
-        <div class="botones" id="pantalla"><p>457787</p></div>
+        <div class="botones" id="pantalla"></div>
         <div class="botones" id="shift"><p>SHIFT</p></div>
         <div class="botones" id="alpha"><p>ALPHA</p></div>
         <div class="botones" id="display"><p>DISPLAY</p></div>
         <div class="botones" id="mode"><p>MODE</p></div>
         <div class="botones" id="on"><p>ON</p></div>
-        <div class="botones" id="ac"><p>AC</p></div>
+        <div class="botones" id="ac" onclick="visualise('')"><p>AC</p></div>
         <div class="botones" id="sen"><p>sen</p></div>
         <div class="botones" id="cos"><p>cos</p></div>
         <div class="botones" id="tan"><p>tan</p></div>
         <div class="botones" id="log"><p>log</p></div>
         <div class="botones" id="ln"><p>ln</p></div>
         <div class="botones" id="raiz"><p>√</p></div>
-        <div class="botones" id="punto"><p>.</p></div>
-         <div class="botones" id="mas"><p>+</p></div>
-        <div class="botones"><p>0</p></div>
-        <div class="botones" ><p>1</p></button></div>
-        <div class="botones" ></button><p>4</p></div>
-        <div class="botones"><p>7</p></div>
-        <div class="botones" id="menos"><p>-</p></div>
-        <div class="botones"><p>2</p></div>
-        <div class="botones" ><p>5</p></div>
-        <div class="botones" ><p>8</p></div>
+        <div class="botones" id="punto" onclick="visualise('.')"><p>.</p></div>
+         <div class="botones" id="mas" onclick="visualise('+')"><p>+</p></div>
+        <div class="botones" id="cero" onclick="visualise('0')"><p>0</p></div>
+        <div class="botones" id="uno" onclick="visualise('1')"><p>1</p></div>
+        <div class="botones" id="cuatro" onclick="visualise('4')"><p>4</p></div>
+        <div class="botones"  id="siete" onclick="visualise('7')"><p>7</p></div>
+        <div class="botones" id="menos" onclick="visualise('-')"><p>-</p></div>
+        <div class="botones" id="dos" onclick="visualise('2')"><p>2</p></div>
+        <div class="botones" id="cinco" onclick="visualise('5')"><p>5</p></div>
+        <div class="botones" id="ocho" onclick="visualise('8')"><p>8</p></div>
         <div class="botones" id="multi"><p>x</p></div>
         <div class="botones" id="igual"><p>=</p></div>
-        <div class="botones"><p>3</p></div>
-        <div class="botones"><p>6</p></div>
-        <div class="botones"><p>9</p></div>
-        <div class="botones" id="divi"><p>/</p></div>
+        <div class="botones" id="tres" onclick="visualise('3')"><p>3</p></div>
+        <div class="botones" id="seis" onclick="visualise('6')"><p>6</p></div>
+        <div class="botones" id="nueve" onclick="visualise('9')"><p>9</p></div>
+        <div class="botones" id="division" onclick="visualise('/')"><p>/</p></div>
     
     </div>
 
-	
+	<script src="calculadora.js"></script>
 </body>
 </html>
